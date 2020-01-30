@@ -1,0 +1,94 @@
+:root{
+  --mainBlue : #2a2a72;
+  --lightBlue : #009ffd;
+  --mainWhite : #f3f3f3;
+  --mainDark : #232528;
+  --mainYellow : #ffa400;
+  --mainRed : #f30c0c;
+  
+  
+  }
+  
+  body{
+    font-family: "Oswald", sans-serif !important;
+    background: var(--mainWhite) !important;
+    color : var(--mainDark) !important;
+  }
+  
+  .text-title{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
+  
+  .text-blue{
+    color: var(--mainDark);
+  }
+  
+  .text-bright{
+    color: var(--mainWhite);
+  }
+
+  .btn-black{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important ;
+    color: var(--mainDark);
+    border-radius: 0 !important ;
+    border: 0.1rem solid var(--mainDark) !important;
+  }
+
+  .btn-black:hover{
+    background: var(--mainDark) !important;
+    color: var(--mainWhite) !important;
+  }
+
+  .cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--mainYellow);
+  }
+
+  .logo{
+    width: 200px;
+}
+
+.sli{
+    width: 1130px;
+    height: 400px;
+}
+.header{
+    background-color:transparent;
+    height: 70px;
+}
+.toggler{
+    background-color: transparent;
+}
+
+.sliderimage{
+    margin-top: 50px;
+    
+    
+}
+.slider{
+    background-color: rgb(186,3,2);
+    
+    
+    margin-top: -50px;
+  
+}
+.slide{
+    padding-top: 30px;
+}
+.notive{
+    margin-top: 20px;
+}
+.danger{
+    background-color:transparent !important;
+}
+
+.slide{
+    margin-bottom:20px ;
+}
+
+
