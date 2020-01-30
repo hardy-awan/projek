@@ -1,40 +1,22 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.19.2",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "jwt-decode": "^2.2.0",
-    "popper.js": "^1.16.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-owl-carousel2": "^0.3.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "styled-components": "^4.4.1"
-  },
+  "name": "projek-backend",
+  "version": "1.0.0",
+  "description": "Projek Back-End",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "proxy": "http://localhost:5000"
+  "author": "Dedy Hardi Kurniawan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
 }
